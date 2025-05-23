@@ -4,7 +4,7 @@
         navigator.serviceWorker.ready.then(function(registration) {
            registration.showNotification('عنوان الإشعار', {
              body: 'محتوى الإشعار',
-             icon: '/path/to/icon.png'
+             icon: 'lebanese cedar.png'
            });
          });
        } else {
