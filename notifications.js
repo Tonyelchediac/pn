@@ -2,8 +2,8 @@
      Notification.requestPermission().then(function(permission) {
        if (permission === 'granted'){
         navigator.serviceWorker.ready.then(function(registration) {
-           registration.showNotification('عنوان الإشعار', {
-             body: 'محتوى الإشعار',
+           registration.showNotification('Hello World', {
+             body: 'Hello from Tony El Chediac !',
              icon: 'lebanese cedar.png'
            });
          });
